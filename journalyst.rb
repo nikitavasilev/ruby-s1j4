@@ -6,7 +6,7 @@ def sort
 	puts "Il y a #{@handle.grep(/aude/i).count} handles qui contiennent les 4 lettres du prénom 'Aude' à la suite."
 	puts "Il y a #{@handle.grep(/^@[A-Z]/).count} handles qui commencent par une majuscule."
 	puts "Il y a #{@handle.grep(/[A-Z]/).count} handles qui contiennent une majuscule."
-	puts "Il y a #{@handle.select{|item| item.include? ("_")}.count} '_' dans tous les pseudos confondus."
+	puts "Il y a #{@handle.to_s.count("_")} '_' dans tous les pseudos confondus."
 	puts "Liste des handles par ordre alphabétique :\n#{@handle.sort_by{|item| item.downcase}}"
 end
 
