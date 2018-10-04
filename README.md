@@ -1,6 +1,6 @@
-### The Hacking Project - Semaine 01 - Projet du jeudi
+### The Hacking Project - Week 01 - Thursday Project
 
-***Data Scientist - Cryptomonnaies + Journalistes***
+***Data Scientist: Cryptocurrencys + Journalists***
 
 
-Travail réalisé par [Arthur Mansuy](https://github.com/tutus06) & [Nikita Vasilev](https://github.com/nikitavasilev).
+Work done by [Nikita Vasilev](https://github.com/nikitavasilev) & [Arthur Mansuy](https://github.com/tutus06).
