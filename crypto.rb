@@ -22,7 +22,7 @@ def stats
 	puts "\n*************************************************"
 	puts "La cryptomonnaie avec la plus petite valeur est :\n#{hash.key(hash.values.min)}.\n"
 	puts "\n*************************************************"
-	puts "#{cryptocurrencys.grep(/coin/).count} cryptomonnaies contiennent le nom 'coin'.\n"
+	puts "#{cryptocurrencys.grep(/coin/i).count} cryptomonnaies contiennent le nom 'coin'.\n"
 	puts "\n*************************************************"
 
 	x = hash.select{|cryptocurrencys, values| values < 6000}
